@@ -2,7 +2,7 @@ const { GraphQLObjectType, GraphQLInt, GraphQLString, GraphQLList, GraphQLNonNul
 
 const PokemonType = require('./PokemonType');
 
-const { getPokemons, getPokemonById, getPokemonByName } = require('../service/Pokemon');
+const { getPokemons, getPokemonById, getPokemonByName } = require('../service/pokemon');
 
 const QueryType = new GraphQLObjectType({
   name: 'Query',
