@@ -5,7 +5,7 @@ const PokemonDimensionType = require('./PokemonDimensionType');
 const PokemonAttackType = require('./PokemonAttackType');
 const EvolutionRequirementType = require('./EvolutionRequirementType');
 
-const { getPokemonByEvolutions } = require('../service/Pokemon');
+const { getPokemonByEvolutions } = require('../service/pokemon');
 
 const PokemonType = new GraphQLObjectType({
   name: 'Pokemon',
